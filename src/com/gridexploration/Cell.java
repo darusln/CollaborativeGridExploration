@@ -14,4 +14,10 @@ public class Cell {
     public int getX() { return x; }
     public int getY() { return y; }
     public CellType getType() { return type; }
+
+    @Override
+    public String toString() {
+        return "Cell[" + x + "," + y + "," + type + "]";
+    }
+
 }
